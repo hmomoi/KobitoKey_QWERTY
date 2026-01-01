@@ -62,20 +62,26 @@ parse_config:
     DOT: "."
     DOUBLE_QUOTES: '"'
     SQT: "'"
+    APOS: "'"
     SLASH: "/"
     MINUS: "-"
     GRAVE: "`"
     LEFT_BRACKET: "["
     RIGHT_BRACKET: "]"
+    LBKT: "["
+    RBKT: "]"
     LEFT_BRACE: "{"
     RIGHT_BRACE: "}"
     BACKSLASH: "\\"
     AT_SIGN: "@"
     LANGUAGE_1: "かな"
     LANGUAGE_2: "英数"
+    LANG1: "かな"
+    LANG2: "英数"
     LANG_HANJA: "英数"
     LANG_HANGEUL: "かな"
     SEMICOLON: ";"
+    SEMI: ";"
     COLON: ":"
     LEFT_PARENTHESIS: "("
     RIGHT_PARENTHESIS: ")"
@@ -90,11 +96,17 @@ parse_config:
     CARET: "^"
     AMPERSAND: "&"
     ASTERISK: "*"
+    ASTRK: "*"
+    PIPE: "|"
     LGUI: $$mdi:microsoft-windows$$
     UP_ARROW: $$mdi:arrow-up-bold$$
     DOWN_ARROW: $$mdi:arrow-down-bold$$
     LEFT_ARROW: $$mdi:arrow-left-bold$$
     RIGHT_ARROW: $$mdi:arrow-right-bold$$
+    UP: $$mdi:arrow-up-bold$$
+    DOWN: $$mdi:arrow-down-bold$$
+    LEFT: $$mdi:arrow-left-bold$$
+    RIGHT: $$mdi:arrow-right-bold$$
     PAGE_UP: $$mdi:transfer-up$$
     PAGE_DOWN: $$mdi:transfer-down$$
     C_VOL_UP: $$mdi:volume-high$$
