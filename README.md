@@ -1,3 +1,6 @@
+# キーマップ
+![image](https://github.com/hmomoi/KobitoKey_QWERTY/blob/main/keymap-drawer/KobitoKey.svg)
+
 # KobitoKey_QWERTY
 
 Layer 0 QWERTY
