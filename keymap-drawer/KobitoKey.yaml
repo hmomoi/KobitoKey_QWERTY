@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - SEMI
+  - ;
   - Z
   - X
   - C
@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - APOS
+  - ''''
   - LEFT SHIFT
   - LEFT ALT
   - LEFT GUI
@@ -49,28 +49,28 @@ layers:
   - '`'
   - '-'
   - {t: ▽, type: trans}
-  - UP
+  - $$mdi:arrow-up-bold$$
   - \
-  - PIPE
+  - '|'
   - '='
   - '4'
   - '5'
   - '6'
   - {t: ▽, type: trans}
   - +
-  - LEFT
-  - DOWN
-  - RIGHT
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: ▽, type: trans}
   - '{'
   - '7'
   - '8'
   - '9'
   - '}'
-  - ASTRK
+  - '*'
   - /
-  - LBKT
-  - RBKT
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,9 +166,9 @@ layers:
   - RIGHT ALT
 combos:
 - p: [12, 13]
-  k: LANG2
+  k: 英数
 - p: [16, 17]
-  k: LANG1
+  k: かな
 - p: [0, 1]
   k: ESC
 - p: [10, 11]
