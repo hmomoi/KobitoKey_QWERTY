@@ -14,6 +14,7 @@
             bindings = <&kp LANG2>;
         };
 
+
         combo_kana {
             timeout-ms = <50>;
             key-positions = <16 17>;
