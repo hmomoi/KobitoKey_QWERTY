@@ -36,9 +36,9 @@ layers:
   - LEFT GUI
   - {t: SPACE, h: '2:FUNCTION'}
   - LCTRL
-  - {t: ENTER, h: '1:NUMBER'}
+  - ENTER
   - $$mdi:backspace$$
-  - RIGHT SHIFT
+  - {t: RIGHT SHIFT, h: '1:NUMBER'}
   - RIGHT SHIFT
   - {t: /, h: RIGHT ALT}
   1:NUMBER:
@@ -77,9 +77,9 @@ layers:
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   2:FUNCTION:
