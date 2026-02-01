@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/hsgw
     - name: caksoylar  # <-- led
       url-base: https://github.com/caksoylar  
+    - name: prospector
+      url-base: https://github.com/t-ogura
 
   projects:
     # ZMK 本体。公式の app/west.yml を取り込む
@@ -33,5 +35,11 @@ manifest:
       remote: caksoylar
       revision: main
       
+    # Add this:
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: v2.0.0  # Use specific version tag
+      path: modules/prospector-zmk-module
+
   self:
     path: config
