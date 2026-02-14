@@ -70,7 +70,7 @@
             label = "3:MOUSE";
             bindings = <
 &trans          &trans  &trans        &trans        &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans          &trans  &trans        &trans        &trans  &trans  &trans    &trans    &trans    &trans
+&trans          &trans  &trans        &trans        &trans  &trans  &mkp MB4  &trans    &mkp MB5  &trans
 &trans          &trans  &trans        &trans        &trans  &trans  &trans    &trans    &trans    &trans
 &kp LEFT_SHIFT  &trans  &kp LEFT_GUI  &kp LEFT_ALT  &to 0   &trans  &trans    &trans    &to 0     &kp RIGHT_ALT
             >;
