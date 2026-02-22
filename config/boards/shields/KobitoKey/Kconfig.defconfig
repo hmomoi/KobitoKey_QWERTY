@@ -2,6 +2,8 @@
 if SHIELD_KOBITOKEY_LEFT
 config ZMK_KEYBOARD_NAME
     default "KobitoKey"
+config MIPI_DBI
+    bool
 endif
 
 # 左右共通

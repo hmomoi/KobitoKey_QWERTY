@@ -33,12 +33,12 @@ manifest:
     # LED
     - name: zmk-rgbled-widget  # <-- led
       remote: caksoylar
-      revision: main
+      revision: v0.3-branch
       
     # Add this:
     - name: prospector-zmk-module
       remote: prospector
-      revision: v2.0.0  # Use specific version tag
+      revision: v2.1.0  # Use specific version tag
       path: modules/prospector-zmk-module
 
   self:
